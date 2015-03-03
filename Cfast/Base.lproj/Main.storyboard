@@ -144,11 +144,8 @@ account details to login</string>
                                     <segue destination="oWr-v6-4ro" kind="show" id="2cU-Nr-v8c"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dU4-3X-dn0">
-                                <rect key="frame" x="16" y="80" width="568" height="88"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teeth" translatesAutoresizingMaskIntoConstraints="NO" id="2vh-Db-2Zg">
-                                <rect key="frame" x="16" y="477" width="568" height="115"/>
+                                <rect key="frame" x="16" y="477" width="568" height="108"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEs-qy-LHU">
                                 <rect key="frame" x="277" y="219" width="62" height="30"/>
@@ -162,23 +159,28 @@ account details to login</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dU4-3X-dn0">
+                                <rect key="frame" x="215" y="77" width="171" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="vQW-bN-yvf"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kws-4W-6HM" firstAttribute="top" secondItem="2vh-Db-2Zg" secondAttribute="bottom" constant="8" symbolic="YES" id="00x-jY-iCL"/>
-                            <constraint firstItem="6js-Zu-Yae" firstAttribute="top" secondItem="dU4-3X-dn0" secondAttribute="bottom" constant="35" id="FTi-KI-JrS"/>
-                            <constraint firstItem="dU4-3X-dn0" firstAttribute="leading" secondItem="gVu-gz-ZlO" secondAttribute="leadingMargin" id="MXd-nR-uEH"/>
+                            <constraint firstItem="dU4-3X-dn0" firstAttribute="top" secondItem="UM0-6W-0Ft" secondAttribute="bottom" constant="13" id="BHS-oO-RIn"/>
+                            <constraint firstItem="kws-4W-6HM" firstAttribute="top" secondItem="2vh-Db-2Zg" secondAttribute="bottom" constant="15" id="FPd-YH-ezU"/>
                             <constraint firstItem="INT-i4-hPI" firstAttribute="trailing" secondItem="KdY-EA-LpC" secondAttribute="trailing" id="TQO-yx-Sty"/>
-                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="leading" secondItem="dU4-3X-dn0" secondAttribute="leading" id="VKb-yQ-xgq"/>
                             <constraint firstItem="KdY-EA-LpC" firstAttribute="trailing" secondItem="6js-Zu-Yae" secondAttribute="trailing" id="Z7d-wB-Ozc"/>
                             <constraint firstItem="KdY-EA-LpC" firstAttribute="leading" secondItem="6js-Zu-Yae" secondAttribute="leading" id="anr-lU-j9f"/>
-                            <constraint firstItem="dU4-3X-dn0" firstAttribute="top" secondItem="UM0-6W-0Ft" secondAttribute="bottom" constant="16" id="hab-a1-Y6n"/>
+                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="centerX" secondItem="INT-i4-hPI" secondAttribute="centerX" id="cRh-hN-oOd"/>
+                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="top" secondItem="INT-i4-hPI" secondAttribute="bottom" constant="27" id="dk6-gt-STR"/>
+                            <constraint firstItem="6js-Zu-Yae" firstAttribute="top" secondItem="dU4-3X-dn0" secondAttribute="bottom" constant="26" id="e93-I6-ILT"/>
                             <constraint firstItem="KdY-EA-LpC" firstAttribute="centerX" secondItem="gVu-gz-ZlO" secondAttribute="centerX" id="ilT-kW-etg"/>
-                            <constraint firstItem="dU4-3X-dn0" firstAttribute="centerX" secondItem="6js-Zu-Yae" secondAttribute="centerX" id="o0c-da-6WS"/>
+                            <constraint firstItem="dU4-3X-dn0" firstAttribute="centerX" secondItem="6js-Zu-Yae" secondAttribute="centerX" id="kQk-aW-Mtm"/>
+                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="leading" secondItem="gVu-gz-ZlO" secondAttribute="leadingMargin" id="oaY-eo-uWN"/>
                             <constraint firstItem="kws-4W-6HM" firstAttribute="top" secondItem="INT-i4-hPI" secondAttribute="bottom" constant="150" id="rX0-LT-N0k"/>
-                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="trailing" secondItem="dU4-3X-dn0" secondAttribute="trailing" id="rnz-pd-tjM"/>
                             <constraint firstItem="INT-i4-hPI" firstAttribute="top" secondItem="KdY-EA-LpC" secondAttribute="bottom" constant="52" id="u1O-e9-SFd"/>
-                            <constraint firstItem="2vh-Db-2Zg" firstAttribute="top" secondItem="INT-i4-hPI" secondAttribute="bottom" constant="27" id="vAS-eq-Cvj"/>
                             <constraint firstItem="KdY-EA-LpC" firstAttribute="leading" secondItem="INT-i4-hPI" secondAttribute="leading" id="wdP-Dz-FXF"/>
                             <constraint firstItem="KdY-EA-LpC" firstAttribute="top" secondItem="6js-Zu-Yae" secondAttribute="bottom" constant="51" id="xIW-uF-Acu"/>
                         </constraints>
