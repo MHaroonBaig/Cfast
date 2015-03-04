@@ -1,21 +1,18 @@
 PODS:
   - Alamofire (1.1.4)
   - Firebase (2.2.0)
-  - LayerKit (0.10.1)
   - MBProgressHUD (0.9)
   - SwiftyJSON (2.1.3)
 
 DEPENDENCIES:
   - Alamofire (~> 1.1)
   - Firebase (>= 2.2.0)
-  - LayerKit
   - MBProgressHUD (~> 0.8)
   - SwiftyJSON (= 2.1.3)
 
 SPEC CHECKSUMS:
   Alamofire: 524225da382071ee3e6d0badd0ee4b4dc36740de
   Firebase: e7a2ea2ffeff99f9c37028b354194dcc9718d36b
-  LayerKit: 5ee212e2922750ddef4ff6ddd4f1b986c0b85fb6
   MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
   SwiftyJSON: 48be7490a3989a58a3f511cd54167f0a2b466e76
 

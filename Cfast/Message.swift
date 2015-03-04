@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import JSQMessagesViewController
+
 
 class Message : NSObject, JSQMessageData {
     var text_: String

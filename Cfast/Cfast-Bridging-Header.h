@@ -3,6 +3,8 @@
 //
 
 #import <Firebase/Firebase.h>
-#import "JSQmessagesViewController/JSQMessages.h"
+#import "JSQMessages.h"
+#import "JSQMessageData.h"
+
 
 

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import JSQMessagesViewController
+
 
 class FireBaseViewController: JSQMessagesViewController, UIActionSheetDelegate {
     
