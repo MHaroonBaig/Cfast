@@ -67,6 +67,30 @@ class FireBaseViewController: JSQMessagesViewController, UIActionSheetDelegate {
             "imageUrl":senderImageUrl,
             "senderName": senderActualName
             ])
+        
+        if !isDoctor{
+            
+            let currentInstallation = PFInstallation.currentInstallation()
+            currentInstallation.removeObject("Patient", forKey: "channels")
+            currentInstallation.saveInBackground()
+            
+            let push = PFPush()
+            push.setChannel("Doctors")
+            push.setMessage("The Giants just scored!")
+            push.sendPushInBackground()
+            
+        } else {
+            let currentInstallation = PFInstallation.currentInstallation()
+            currentInstallation.removeObject("Doctor", forKey: "channels")
+            currentInstallation.saveInBackground()
+            
+            let push = PFPush()
+            push.setChannel("Patients")
+            push.setMessage("The Giants just scored!")
+            push.sendPushInBackground()
+
+        }
+
     }
     
     func tempSendMessage(text: String!, sender: String!) {
