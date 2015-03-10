@@ -25,6 +25,8 @@
 		7503E3791AA1C83900426224 /* FormDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7503E3671AA1C83900426224 /* FormDescriptor.swift */; };
 		7503E37A1AA1C83900426224 /* FormRowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7503E3681AA1C83900426224 /* FormRowDescriptor.swift */; };
 		7503E37B1AA1C83900426224 /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7503E3691AA1C83900426224 /* FormSectionDescriptor.swift */; };
+		7545B17A1AAF626000B747ED /* ProfilePictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7545B1791AAF626000B747ED /* ProfilePictureController.swift */; };
+		7545B17E1AAF716300B747ED /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 7545B17D1AAF716300B747ED /* sample.png */; };
 		756BEDA11A9F6A1C00954040 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BEDA01A9F6A1C00954040 /* homeViewController.swift */; };
 		758701E21A9F31B00091C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758701E11A9F31B00091C963 /* AppDelegate.swift */; };
 		758701E51A9F31B00091C963 /* Cfast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 758701E31A9F31B00091C963 /* Cfast.xcdatamodeld */; };
@@ -129,6 +131,8 @@
 		7503E3671AA1C83900426224 /* FormDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDescriptor.swift; sourceTree = "<group>"; };
 		7503E3681AA1C83900426224 /* FormRowDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormRowDescriptor.swift; sourceTree = "<group>"; };
 		7503E3691AA1C83900426224 /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSectionDescriptor.swift; sourceTree = "<group>"; };
+		7545B1791AAF626000B747ED /* ProfilePictureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePictureController.swift; sourceTree = "<group>"; };
+		7545B17D1AAF716300B747ED /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 		756BEDA01A9F6A1C00954040 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		758701DC1A9F31B00091C963 /* Cfast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cfast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758701E01A9F31B00091C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -393,7 +397,9 @@
 				75ED5A1D1AA1000C00534878 /* SweetAlert.swift */,
 				7503E3531AA1C83900426224 /* Source */,
 				758701E81A9F31B00091C963 /* Main.storyboard */,
+				7545B1791AAF626000B747ED /* ProfilePictureController.swift */,
 				75AA5F4C1AA1C1A700714461 /* ProfileViewController.swift */,
+				7545B17D1AAF716300B747ED /* sample.png */,
 				75ED5A151AA0E50400534878 /* FireBaseViewController.swift */,
 				75ED5A191AA0E6AF00534878 /* Message.swift */,
 				756BEDA01A9F6A1C00954040 /* homeViewController.swift */,
@@ -734,6 +740,7 @@
 				75A7D9271AA74B7700CD1476 /* JSQMessagesToolbarContentView.xib in Resources */,
 				75A7D9091AA74B7700CD1476 /* JSQMessagesViewController.xib in Resources */,
 				75A7D9241AA74B7700CD1476 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
+				7545B17E1AAF716300B747ED /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,6 +864,7 @@
 				75A7D90B1AA74B7700CD1476 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				75A7D90A1AA74B7700CD1476 /* JSQMessagesAvatarImageFactory.m in Sources */,
 				75A7D9111AA74B7700CD1476 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
+				7545B17A1AAF626000B747ED /* ProfilePictureController.swift in Sources */,
 				75A7D9201AA74B7700CD1476 /* JSQMessagesComposerTextView.m in Sources */,
 				7503E3771AA1C83900426224 /* FormSelector.swift in Sources */,
 				756BEDA11A9F6A1C00954040 /* homeViewController.swift in Sources */,

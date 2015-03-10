@@ -110,7 +110,19 @@ class FireBaseViewController: JSQMessagesViewController, UIActionSheetDelegate {
         
         if let data = NSData(contentsOfURL: url!) {
             
-            let image = UIImage(data: NSData(contentsOfURL: url!)!)
+            var image: UIImage!
+            
+            let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+            let destinationPath = documentsPath.stringByAppendingPathComponent("profilePictureUpdated.jpg")
+            
+            let profileImage = UIImage(contentsOfFile: destinationPath)
+            
+            if let profileImageSaved = profileImage?.size{
+                image = profileImage
+            } else {
+                image = UIImage(named: "blankProfile")
+            }
+
             let avatarImage = JSQMessagesAvatarImageFactory.avatarImageWithImage(image, diameter: diameter)
             
             avatars[name] = avatarImage

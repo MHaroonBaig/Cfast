@@ -36,6 +36,7 @@ class FormViewController : UITableViewController {
     convenience init(form: FormDescriptor) {
         self.init()
         self.form = form
+        
     }
     
     override init(style: UITableViewStyle) {
@@ -61,6 +62,7 @@ class FormViewController : UITableViewController {
         super.viewDidLoad()
         assert(form != nil, "self.form property MUST be assigned!")
         navigationItem.title = form.title
+        self.tableView.tableFooterView = UIView(frame: CGRectZero)
     }
     
     /// MARK: Public interface

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MobileCoreServices
 
 
 class ProfileViewController: FormViewController, FormViewControllerDelegate{
@@ -153,7 +154,7 @@ class ProfileViewController: FormViewController, FormViewControllerDelegate{
         
         let section7 = FormSectionDescriptor()
         
-        row = FormRowDescriptor(tag: Static.button, rowType: .Button, title: "Dismiss")
+        row = FormRowDescriptor(tag: Static.button, rowType: .Button, title: "Change Profile Picture")
         section7.addRow(row)
        
         form.sections = [section1, section2, section3, section5, section6, section7]
@@ -164,6 +165,7 @@ class ProfileViewController: FormViewController, FormViewControllerDelegate{
     func formViewController(controller: FormViewController, didSelectRowDescriptor rowDescriptor: FormRowDescriptor) {
         if rowDescriptor.tag == Static.button {
             self.view.endEditing(true)
+            performSegueWithIdentifier("Picture", sender: self)
             
         }
     }

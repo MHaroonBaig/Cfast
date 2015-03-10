@@ -72,7 +72,7 @@ class ViewController: UIViewController {
         let isRegistered = defaults.objectForKey("Status") as? String
         if let result = isRegistered{
             if result == "registeredUser"{
-                //performSegueWithIdentifier("homeView", sender: self)
+                performSegueWithIdentifier("homeView", sender: self)
             }
         }
     }
